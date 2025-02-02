@@ -1,0 +1,280 @@
+@font-face {
+    font-family: avengers;
+    src: url(fonts/avengers/AvengeanceMightiestAvenger-837g.ttf);
+}
+@font-face {
+    font-family: horizon;
+    src: url(fonts/dash-horizon/Dashhorizon-eZ5wg.otf);
+}
+@font-face {
+    font-family: besport;
+    src: url(fonts/besport/Besport-KVOEX.otf);
+}
+@font-face {
+    font-family: dodger;
+    src: url(fonts/dodger/DodgerExpandedItalic-OGVZo.otf);
+}
+@font-face {
+    font-family: housegrind;
+    src: url(fonts/housegrinder/HousegrindPersonalUseOnly-8zDZ.ttf);
+}
+@font-face {
+    font-family: racing;
+    src: url(fonts/racing-mega/RacingMegaRace-pggKK.otf);
+}
+@font-face {
+    font-family: spiky;
+    src: url(fonts/spiky/Spiky016-axa75.otf);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+            /* Main banner */
+.hero-main{
+    background-color: #b1b2b9;
+    height: auto;
+    width: auto;
+}
+#slogan{
+    color: #000000;
+}
+#line{
+    text-decoration: underline;
+    text-decoration-color: #FF6500;
+}
+.hero{
+    height: 80%;
+    width: 100%;
+    /* opacity: 0.9; */
+    /* margin-left: 300px; */
+}
+.hero-head{
+    font-weight: 900;
+    font-family: racing;    
+    color: #5b5d62;
+}
+.hero-padding{
+    padding-left: 0px;
+    padding-top: 60px;
+}
+.hero-div{
+    height: 600px;
+}
+
+/* Padding */
+.line {
+    border: 5px dashed #FF6500; /* From the palette */
+}
+.padding {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #272e36; /* From the palette */
+}
+
+/* Heading */
+.card-heading-2 {
+    font-family: racing;
+    color: #f0e9e6; /* From the palette */
+    text-align: center;
+    background-color: #191f25; /* From the palette */
+    padding: 10px 0;
+    margin: 0;
+    text-shadow: 4px 4px 1px #000000;
+}
+
+/* Logo */
+.logo-main {
+    padding: 30px 0;
+    background-color: #b1b2b9; /* From the palette */
+}
+.logo-table {
+    width: 100%;
+    border: none;
+}
+.logo-img {
+    height: 50px;
+    width: 90px;
+}
+#ford{
+    height: 80px;
+    padding-bottom: 10px;
+}
+.logo-hover:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+            /* feature car */
+.feature-car{
+    background-color: #191f25;
+    color: #ffffff;
+}
+.feature-title{
+    color: #ffffff;
+}
+
+            /* display */
+.feature-card{
+    /* width: 100%; */
+    padding: 20px;
+}
+
+            /* membership */
+.plan{
+    /* background-color: #191f25; */
+    border: 3px solid #191f25;
+    color: #000000;
+}
+.membership-card {
+    /* border: 2px solid #f0f0f0; */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.membership-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 18px 22px #191f25;
+}
+
+.membership-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.membership-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin: 20px 0;
+}
+
+.membership-list {
+    list-style: none;
+    padding: 0;
+}
+
+.membership-list li {
+    margin: 10px 0;
+}
+
+.btn-choose {
+    /* background-color: #007bff; */
+    /* color: #ff0000; */
+    /* border: 4px solid red; */
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.btn-choose:hover {
+    background-color: #0056b3;
+}
+
+            /* footer */
+.footer {
+    background-color: #191f25;
+    color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+.footer a {
+    color: #b1b2b9;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+
+            /* available-cars */
+.avail-heading{
+    color: #f0e9e6;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    opacity: 0.85;
+}
+.card-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+.card-title:hover {
+    color: #FF6500;
+}
+.exclusive{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin: 10px;
+}
+.A-card{
+    background-color: #191f25;
+    color: #ffffff;
+}
+
+
+                    /* MG-Hector */
+
+            /* mg-main */
+.hector-info{
+    border: 1px solid #b1b2b9;
+    margin-top: 25px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.mg-main{
+    background-color: #191f25;
+}
+.mg-title{
+    font-family: besport;
+    color: #b4b4b4;
+}
+.crash{
+    height: 40px;
+    width: 40px;
+}
+
+/* style="background-color: rgb(145, 165, 184);" */
